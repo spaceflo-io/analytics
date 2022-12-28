@@ -18,7 +18,7 @@ defmodule PlausibleWeb.Email do
     base_email()
     |> to(user)
     |> tag("welcome-email")
-    |> subject("Welcome to Plausible")
+    |> subject("서브키트 애널리틱스 가입을 환영합니다")
     |> render("welcome_email.html", user: user, unsubscribe: true)
   end
 
