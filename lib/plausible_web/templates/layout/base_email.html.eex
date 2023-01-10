@@ -11,7 +11,3 @@ The Subkit Analytics Team 💌
 --
 <br /><br />
 <%= link(plausible_url(), to: plausible_url()) %><br />
-
-<%# <%= if Map.get(assigns, :unsubscribe, false) do %> %>
-<%# {{{ pm:unsubscribe }}} %>
-<%# <% end %> %>
