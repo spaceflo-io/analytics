@@ -10,7 +10,7 @@ defmodule PlausibleWeb.EmailView do
   end
 
   def greet_recipient(%{user: %{name: name}}) when is_binary(name) do
-    "#{String.split(name) |> List.first()} 님,"
+    "Hey #{String.split(name) |> List.first()},"
   end
 
   def greet_recipient(_), do: "Hey,"

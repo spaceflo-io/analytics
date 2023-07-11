@@ -1,5 +1,15 @@
-Subkit Analytics 회원가입을 환영합니다.
+We are building Plausible to provide a simple and ethical approach to tracking website visitors.
+We're super excited to have you on board!
 <br /><br />
-Subkit Analytics 는 간단하고 사용자 개인정보를 수집하지 않는 웹 분석틀입니다.
+Here's how to get the most out of your Plausible experience:
 <br /><br />
-문의사항이나 사용에 문제가 있을 경우 이 메일로 회신 주시기 바랍니다.
+* <%= link("Enable email reports", to: "https://plausible.io/docs/email-reports") %> and notifications for <%= link("traffic spikes", to: "https://plausible.io/docs/traffic-spikes") %><br />
+* <%= link("Integrate with Search Console", to: "https://plausible.io/docs/google-search-console-integration") %> to get keyword phrases people find your site with<br />
+* <%= link("Invite team members and other collaborators", to: "https://plausible.io/docs/users-roles") %><br />
+* Set up easy goals including <%= link("404 error pages", to: "https://plausible.io/docs/error-pages-tracking-404") %>, <%= link("file downloads", to: "https://plausible.io/docs/file-downloads-tracking") %> and <%= link("outbound link clicks", to: "https://plausible.io/docs/outbound-link-click-tracking") %><br />
+* <%= link("Opt out from counting your own visits", to: "https://plausible.io/docs/excluding") %><br />
+* If you're concerned about adblockers, <%= link("set up a proxy to bypass them", to: "https://plausible.io/docs/proxy/introduction") %><br />
+<br /><br />
+Then you're ready to start exploring your fast loading, ethical and actionable <%= link("Plausible dashboard", to: "https://plausible.io/sites") %>.
+<br /><br />
+Have a question, feedback or need some guidance? Do reply back to this email.

@@ -5,13 +5,13 @@
 <br /><br />
 
 Regards,<br />
-The Subkit Analytics Team 💌
+The Plausible Team 💌
 <br /><br />
 
 --
 <br /><br />
 <%= link(plausible_url(), to: plausible_url()) %><br />
 
-<%# <%= if Map.get(assigns, :unsubscribe, false) do %> %>
-<%# {{{ pm:unsubscribe }}} %>
-<%# <% end %> %>
+<%= if Map.get(assigns, :unsubscribe, false) do %>
+{{{ pm:unsubscribe }}}
+<% end %>
