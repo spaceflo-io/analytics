@@ -129,7 +129,7 @@ defmodule PlausibleWeb.SiteControllerTest do
         }
       })
 
-      assert_email_delivered_with(subject: "서브키트 애널리틱스 가입을 환영합니다")
+      assert_email_delivered_with(subject: "Welcome to Plausible")
     end
 
     test "does not send welcome email if user already has a previous site", %{
