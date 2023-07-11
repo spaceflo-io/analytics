@@ -66,7 +66,7 @@ defmodule PlausibleWeb.Email do
     base_email(%{layout: nil})
     |> to(email)
     |> tag("password-reset-email")
-    |> subject("서브키트 애널리틱스 비밀번호 설정")
+    |> subject("Plausible password reset")
     |> render("password_reset_email.html", reset_link: reset_link)
   end
 
